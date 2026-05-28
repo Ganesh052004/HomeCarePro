@@ -25,11 +25,11 @@ export default function ContactPage() {
         <div className="grid lg:grid-cols-5 gap-8">
           {/* Contact Info */}
           <div className="lg:col-span-2 space-y-6">
-            {[
-              { icon: <MapPin className="w-6 h-6" />, title: 'Visit Us', info: 'HomeCare Pro, Tech Park\nAndheri West, Mumbai - 400053' },
-              { icon: <Phone className="w-6 h-6" />, title: 'Call Us', info: '+91 98765 43210\n+91 98765 43211' },
-              { icon: <Mail className="w-6 h-6" />, title: 'Email Us', info: 'support@homecarepro.com\ninfo@homecarepro.com' },
-              { icon: <Clock className="w-6 h-6" />, title: 'Working Hours', info: 'Mon-Sat: 8 AM - 8 PM\nSun: 9 AM - 5 PM' },
+           {[
+              { icon: <MapPin className="w-6 h-6" />, title: 'Our Location', info: 'HomeCare Pro\nDavanagere, Karnataka\nPIN: 577250' },
+              { icon: <Phone className="w-6 h-6" />, title: 'Call Us', info: '+91 701997625\nMon-Sat: 8 AM - 8 PM' },
+              { icon: <Mail className="w-6 h-6" />, title: 'Email Us', info: 'support@homecarepro.in\ninfo@homecarepro.in' },
+              { icon: <Clock className="w-6 h-6" />, title: 'Working Hours', info: 'Monday - Saturday\n8:00 AM - 8:00 PM' },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-4 p-5 bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700">
                 <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-500/10 rounded-xl flex items-center justify-center text-indigo-600 dark:text-indigo-400 shrink-0">{item.icon}</div>
